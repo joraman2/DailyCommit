@@ -32,6 +32,6 @@ jobs:
         git config --global user.email "jordi@amorosandr.eu"
         git add "$FILE"
         git commit -m "Daily commit"
-        git push https://x-access-token:${{ secrets.TOKEN }}@github.com:joraman2/DailyCommit.git
+        git push https://x-access-token:${{ secrets.TOKEN }}@github.com/joraman2/DailyCommit.git
       env:
         TOKEN: ${{ secrets.TOKEN }}

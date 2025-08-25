@@ -2,7 +2,7 @@ name: Jordi's Daily Commit
 
 on:
   schedule:
-    - cron: '*/5 8-17 * * 1-5'
+    - cron: '*/30 8-17 * * 1-5'
 
 jobs:
   commit:

@@ -1,0 +1,2 @@
+# DailyCommit
+Test GitHub Actions

@@ -2,7 +2,7 @@ name: Jordi's Daily Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Every day at midnight UTC to runs every 7-8 min set cron to '*/1 * * * *'
+    - cron: '*/5 8-17 * * 1-5'  # Every day at midnight UTC to runs every 7-8 min set cron to '*/1 * * * *'
 
 jobs:
   commit:
